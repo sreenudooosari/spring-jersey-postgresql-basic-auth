@@ -20,6 +20,9 @@ The Basic Auth mechanism provides no confidentiality protection for the transmit
  <strong>PostgreSQL</strong>, popular opensource DB.
  
  # Test
-The DB Script is provided in the resources package.<br>
+The DB Script is provided in the resources package.<br><br>
+<a href="https://www.getpostman.com/">Get Postman Tool </a> <br>
 Secured URI :  http://localhost:8080/products/secure <br>
+In Authorization Tab ,choose Type = Basic Auth , fill the username and password and Click Update Request.<br>
+Postman will update the header with Authorization key and value. Now fire the request.<br><br>
 Open/Public URI : http://localhost:8080/products <br>
