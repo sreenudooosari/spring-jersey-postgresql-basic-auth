@@ -14,7 +14,7 @@ This project provides support for using Spring Security with Basic Auth in a Spr
 
 The Basic Auth mechanism provides no confidentiality protection for the transmitted credentials. They are merely encoded with Base64 in transit, but not encrypted or hashed in any way. <strong> HTTPS </strong> is, therefore, typically preferred to use in conjunction with Basic Authentication.
 
-# Tech Stack
+# Tech Stack for this sample
  <strong>SpringBoot </strong>, makes it easy to create stand-alone, production-grade Spring based Applications.<br>
  <strong>Jersey</strong>, one of the leading frameworks to develop RESTful Web services.<br>
  <strong>PostgreSQL</strong>, popular opensource DB.
