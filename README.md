@@ -7,7 +7,7 @@ This project provides support for using Spring Security with Basic Auth in a Spr
 
 # Basic Auth.
   The basic access authentication is a method designed to allow a web browser, or other client program, to provide credentials in the form   of a user name and password  when making a request. <br><br> Before transmission, the user name is appended with a colon and concatenated with the password. The resulting string is encoded with the Base64 algorithm. <br> <br>
- One thing I would like to mention regarding Basic Auth is :
+ One thing I would like to mention regarding Basic Auth is,
  <i><strong> Security is not the intent of the encoding step in Basic Auth. Rather, the intent of the encoding is to encode non-HTTP-compatible characters that   may be in the user name or password into those that are HTTP-compatible.</strong></i>
  
 # How Secure is a Basic Auth ?
